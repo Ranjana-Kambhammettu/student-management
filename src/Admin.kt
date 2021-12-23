@@ -2,6 +2,7 @@ import java.util.Scanner
 class Admin {
     private val password: String = "123456"
     private var markList: HashMap<String, Marks> = HashMap()
+
     fun passwordCheck(check: String): Boolean{
         if (check==password)
             return true
